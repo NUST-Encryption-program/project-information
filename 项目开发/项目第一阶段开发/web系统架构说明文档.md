@@ -1,4 +1,4 @@
-#系统架构设计说明书
+#<div align = center>系统架构设计说明书</div>
 =======================
 
 ***
@@ -25,7 +25,7 @@
 
 <div align = center>系统总体架构图</div>
 
-&emsp;&emsp;&emsp;&emsp;![](../../images/g-001.PNG)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-001.PNG)
 
 
 
