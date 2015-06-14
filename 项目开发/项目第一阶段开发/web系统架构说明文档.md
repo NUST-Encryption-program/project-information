@@ -118,5 +118,19 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-003.jpg)
 
+Spring mvc流程
+
+<font size=4>1.客户端请求提交到DispatcherServlet</font>
+
+2.由DispatcherServlet控制器查询一个或多个HandlerMapping，找到处理请求的Controller
+
+3.DispatcherServlet将请求提交到Controller
+
+4.Controller调用业务逻辑处理后，返回ModelAndView
+
+5.DispatcherServlet查询一个或多个ViewResoler视图解析器，找到ModelAndView指定的视图
+
+6.视图负责将结果显示到客户端
+
 
 
