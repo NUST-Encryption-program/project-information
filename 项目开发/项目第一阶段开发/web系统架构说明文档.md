@@ -100,4 +100,23 @@
 
 <div align = center>web app系统包结构说明</div>
  
+| 包名                                     | 作用说明           |  
+| --------------------------------------   |:-------------------|
+|                                          |                    |
+|                                          |                    |
+|                                          |                    |
+
+##4.Web子系统架构总体功能设计
+
+***
+
+###4.1.Spring框架
+
+&emsp;&emsp;Spring是一个实现mvc模式的框架，对model、view和controller都提供了对应的组件
  
+<div align = center>spring mvc构图</div>
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-003.jpg)
+
+
+
