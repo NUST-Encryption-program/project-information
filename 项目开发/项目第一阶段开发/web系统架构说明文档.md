@@ -23,7 +23,7 @@
 
 <div align = center>系统总体架构图</div>
 
-		![系统总体架构图](../../images/g-001.PNG)
+	![系统总体架构图](../../images/g-001.PNG)
 
  
  
