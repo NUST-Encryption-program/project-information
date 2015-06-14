@@ -137,3 +137,56 @@ Spring mvc流程
 <div align = center>时序图</div>
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-004.png)
+
+1.控制层controller
+
+&emsp;&emsp;控制器的作用是从客户端接收请求，并且选择执行相应的业务逻辑，然后把响应结构返回给客户端，我们采用的spring mvc架构的控制层原理是由DispatcherServlet统一分发请求信息，具体到哪个controller处理是由HandlerMapping定位，controller处理用户请求，处理完请求后则返回ModelAndView对象给DispatcherServlet前端控制器，ModelAndView中包含了模型（Model）和视图（View）。
+
+2.模型model
+
+&emsp;&emsp;Model层中是原始数据封装，只包含get/set方法，承载view和controller之间的数据传输
+
+3.视图view
+
+&emsp;&emsp;Spring提供的视图解析器（ViewResolver）在Web应用中查找View对象，从而将相应结果渲染给客户。
+
+###4.1.Struts框架
+
+***暂时放弃使用***
+
+###4.3.easyUI框架
+
+###4.4.angularJS框架
+
+###4.5.bootstraps框架
+
+###4.6.表单验证
+
+&emsp;&emsp;对web应用来说，由于用户的行为是无法预测的，在表单数据在传递给业务诶之前，必须保证数据的合法性及有效性，而表单验证是保证数据合法性及有效性的重要手段。对于基于ssh框架的表单验证一般有两种形式：基于js的表单验证（前端验证）以及后端验证。
+
+&emsp;&emsp;**前端验证：**
+
+可以针对基本类型的有效性及合法性开发一些公共的js函数，以备整个系统统一调用。
+
+&emsp;&emsp;**后端验证：**
+
+使用spring mvc的表单验证，前端验证不需要提交服务器，所以优先采用前端验证
+
+###4.7.异常处理
+
+###4.8.日志处理
+
+使用log4j
+
+###4.9.	公同组件
+
+####分页组件
+
+####树形组件
+
+####Dao基类
+
+####Service基类
+
+####Action基类
+
