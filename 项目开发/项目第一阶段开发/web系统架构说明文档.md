@@ -57,4 +57,30 @@
 
 &emsp;&emsp;系统的总体架构从结构上分为用户层、表示层、业务层、数据访问层以及层间传递数据的数据传输对象，下面就对各层加以描述
 
+1)	用户层
+
+&emsp;&emsp;用户层作为客户端程序，用来与用户交互，并把来自系统的信息显示给用户，系统的用户层要求可以使用IE7.0以上或谷歌类浏览器作为交互方式
+
+2)	表示层
+
+&emsp;&emsp;表示层主要是控制外观，产生页面逻辑以及对用户输入的数据进行合法性验证。系统中主要包括bootstraps前端框架，基于easyUI框架的javascript脚本以及struts框架的jsp、action、actionform。其中js脚本可以增强用户体验，jsp负责视图的功能，jsp中使用bootstraps提供的标签。Actionform bean用于在视图组件和控制器组件之间传递html表单数据，通常每个html表单对应一个actionform bean，html表单中的字段和actionform bean中的属性一一对应。Actionform的validate()方法用于对用户输入的数据进行合法性验证：action负责单个事件的流程控制
+
+3)	业务层
+
+&emsp;&emsp;业务层处理应用的核心业务逻辑，包括账号管理，下载管理等，spring负责对这些业务对象的管理
+
+4)	数据访问层
+
+&emsp;&emsp;数据访问对象把底层的数据访问操作和上层的逻辑分开。使用mysql和mongodb数据库，其中mongobd作为内存数据库
+
+5)	数据传输对象
+
+&emsp;&emsp;数据出书对象通常作为各个业务实体的javabean对象，负责层与层之间的数据传输。
+
+###3.2.目录结构及包设计
+
+<div align = center>系统目录结构表</div>
+
+<div align = center>web app系统包结构说明</div>
+ 
  
