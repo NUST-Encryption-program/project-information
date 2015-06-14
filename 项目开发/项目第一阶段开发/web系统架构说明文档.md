@@ -134,4 +134,6 @@ Spring mvc流程
 *6.视图负责将结果显示到客户端*
 ```
 
+<div align = center>时序图</div>
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-004.png)
