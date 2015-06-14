@@ -27,6 +27,13 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../../images/g-001.PNG)
 
+&emsp;&emsp;系统总体架构图如上图所示，按照功能分为用户管理服务，资源下载服务，web服务，其中下载的组件中包括android和iphone app安装包，以及java api和c++ api、rest api下载包。系统根据功能特点与业务需求，暂时采用B/S架构模式，数据库使用mysql，mongodb作为内存数据库。技术架构采用J2EE标准架构，基于spring mvc并且集成struts，bootstraps，angularJS，mybatis开源框架，以后称为WEB子系统。
+
+##3.Web子系统架构设计
+
+***
+
+###3.1.web系统架构图
 
 
  
