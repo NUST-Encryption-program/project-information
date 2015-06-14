@@ -25,9 +25,8 @@
 
 <div align = center>系统总体架构图</div>
 
-<div style="text-align: center">
-<img src="../../images/g-001.PNG" style="display:inline"/>
-</div>
+&emsp;&emsp;&emsp;&emsp;![](../../images/g-001.PNG)
+
 
 
  
