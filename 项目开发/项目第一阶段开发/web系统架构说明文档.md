@@ -160,7 +160,8 @@ Spring mvc流程
 
 ###4.5.bootstraps框架
 
-建议使用AngularUI Bootstrap框架，这一框架是基于目前非常流行的前端框架Bootstrap的，它包含了一系列的Bootstrap组件，比如Carousel、Alert、Collapse、Rating和TimePicker等。所有的这些组件都可以移植到AngularJS，支持AngularJS指令和常规的HTML元素。
+   建议使用AngularUI Bootstrap框架，这一框架是基于目前非常流行的前端框架Bootstrap的，它包含了一系列的Bootstrap组件，比如Carousel、Alert、Collapse、Rating和TimePicker等。所有的这些组件都可以移植到AngularJS，支持AngularJS指令和常规的HTML元素。
+   后边支持移动端网页，使用Mobile Angular UI；正和它的名字一样，这是一款HTML5 移动端 的UI 框架，允许使用 Angular JS 和 Bootstrap3来开发移动端应用。另外，它可以通过增加CSS，帮助将一个Web app转为移动端的版本。
 
 ###4.6.表单验证
 
