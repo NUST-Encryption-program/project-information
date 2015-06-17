@@ -160,6 +160,8 @@ Spring mvc流程
 
 ###4.5.bootstraps框架
 
+建议使用AngularUI Bootstrap框架，这一框架是基于目前非常流行的前端框架Bootstrap的，它包含了一系列的Bootstrap组件，比如Carousel、Alert、Collapse、Rating和TimePicker等。所有的这些组件都可以移植到AngularJS，支持AngularJS指令和常规的HTML元素。
+
 ###4.6.表单验证
 
 &emsp;&emsp;对web应用来说，由于用户的行为是无法预测的，在表单数据在传递给业务诶之前，必须保证数据的合法性及有效性，而表单验证是保证数据合法性及有效性的重要手段。对于基于ssh框架的表单验证一般有两种形式：基于js的表单验证（前端验证）以及后端验证。
