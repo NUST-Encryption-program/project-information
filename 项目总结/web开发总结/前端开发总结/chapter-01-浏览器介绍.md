@@ -1,81 +1,81 @@
-#<div align = center>ä¯ÀÀÆ÷ÄÚ²¿¹¤×÷Ô­Àí</div>
+#<div align = center>æµè§ˆå™¨å†…éƒ¨å·¥ä½œåŽŸç†</div>
 =============================================
 
 ***
 
-##ä¯ÀÀÆ÷½éÉÜ
+##æµè§ˆå™¨ä»‹ç»
 
-&emsp;&emsp;Ä¿Ç°ÓÐÎåÖÖÖ÷Á÷ä¯ÀÀÆ÷£¨IE¡¢Firefox¡¢Safari¡¢Chrome¼°Opera£©
+&emsp;&emsp;ç›®å‰æœ‰äº”ç§ä¸»æµæµè§ˆå™¨ï¼ˆIEã€Firefoxã€Safariã€ChromeåŠOperaï¼‰
 
-###ä¯ÀÀÆ÷µÄÖ÷Òª¹¦ÄÜ
+###æµè§ˆå™¨çš„ä¸»è¦åŠŸèƒ½
 
-&emsp;&emsp;ä¯ÀÀÆ÷µÄÖ÷Òª¹¦ÄÜÊÇ½«ÓÃ»§Ñ¡ÔñµÄweb×ÊÔ´³ÊÏÖ³öÀ´£¬ËüÐèÒª´Ó·þÎñÆ÷ÇëÇó×ÊÔ´£¬²¢½«ÆäÏÔÊ¾ÔÚä¯ÀÀÆ÷´°¿ÚÖÐ£¬×ÊÔ´µÄ¸ñÊ½Í¨³£ÊÇHTML£¬Ò²°üÀ¨PDF¡¢image¼°ÆäËû¸ñÊ½¡£ÓÃ»§ÓÃURI£¨Uniform Resource IdentifierÍ³Ò»×ÊÔ´±êÊ¶·û£©À´Ö¸¶¨ËùÇëÇó×ÊÔ´µÄÎ»ÖÃ
+&emsp;&emsp;æµè§ˆå™¨çš„ä¸»è¦åŠŸèƒ½æ˜¯å°†ç”¨æˆ·é€‰æ‹©çš„webèµ„æºå‘ˆçŽ°å‡ºæ¥ï¼Œå®ƒéœ€è¦ä»ŽæœåŠ¡å™¨è¯·æ±‚èµ„æºï¼Œå¹¶å°†å…¶æ˜¾ç¤ºåœ¨æµè§ˆå™¨çª—å£ä¸­ï¼Œèµ„æºçš„æ ¼å¼é€šå¸¸æ˜¯HTMLï¼Œä¹ŸåŒ…æ‹¬PDFã€imageåŠå…¶ä»–æ ¼å¼ã€‚ç”¨æˆ·ç”¨URIï¼ˆUniform Resource Identifierç»Ÿä¸€èµ„æºæ ‡è¯†ç¬¦ï¼‰æ¥æŒ‡å®šæ‰€è¯·æ±‚èµ„æºçš„ä½ç½®
 
-&emsp;&emsp;HTMLºÍCSS¹æ·¶ÖÐ¹æ¶¨ÁËä¯ÀÀÆ÷½âÊÍhtmlÎÄµµµÄ·½Ê½£¬ÓÉW3C×éÖ¯¶ÔÕâÐ©¹æ·¶½øÐÐÎ¬»¤£¬W3CÊÇ¸ºÔðÖÆ¶¨web±ê×¼µÄ×éÖ¯¡£
-¡¡¡¡
-HTML¹æ·¶µÄ×îÐÂ°æ±¾ÊÇHTML5£¬×îÐÂµÄcss¹æ·¶°æ±¾ÊÇcss3
+&emsp;&emsp;HTMLå’ŒCSSè§„èŒƒä¸­è§„å®šäº†æµè§ˆå™¨è§£é‡Šhtmlæ–‡æ¡£çš„æ–¹å¼ï¼Œç”±W3Cç»„ç»‡å¯¹è¿™äº›è§„èŒƒè¿›è¡Œç»´æŠ¤ï¼ŒW3Cæ˜¯è´Ÿè´£åˆ¶å®šwebæ ‡å‡†çš„ç»„ç»‡ã€‚
+ã€€ã€€
+HTMLè§„èŒƒçš„æœ€æ–°ç‰ˆæœ¬æ˜¯HTML5ï¼Œæœ€æ–°çš„cssè§„èŒƒç‰ˆæœ¬æ˜¯css3
 
-###ä¯ÀÀÆ÷µÄÖ÷Òª¹¹³É
+###æµè§ˆå™¨çš„ä¸»è¦æž„æˆ
 
-ä¯ÀÀÆ÷µÄÖ÷Òª×é¼þ°üÀ¨£º
+æµè§ˆå™¨çš„ä¸»è¦ç»„ä»¶åŒ…æ‹¬ï¼š
 
-&emsp;&emsp;1. ÓÃ»§½çÃæ £­ °üÀ¨µØÖ·À¸¡¢ºóÍË/Ç°½ø°´Å¥¡¢ÊéÇ©Ä¿Â¼µÈ£¬Ò²¾ÍÊÇÄãËù¿´µ½µÄ³ýÁËÓÃÀ´ÏÔÊ¾ÄãËùÇëÇóÒ³ÃæµÄÖ÷´°¿ÚÖ®ÍâµÄÆäËû²¿·Ö¡£
+&emsp;&emsp;1. ç”¨æˆ·ç•Œé¢ ï¼ åŒ…æ‹¬åœ°å€æ ã€åŽé€€/å‰è¿›æŒ‰é’®ã€ä¹¦ç­¾ç›®å½•ç­‰ï¼Œä¹Ÿå°±æ˜¯ä½ æ‰€çœ‹åˆ°çš„é™¤äº†ç”¨æ¥æ˜¾ç¤ºä½ æ‰€è¯·æ±‚é¡µé¢çš„ä¸»çª—å£ä¹‹å¤–çš„å…¶ä»–éƒ¨åˆ†ã€‚
 
-&emsp;&emsp;2. ä¯ÀÀÆ÷ÒýÇæ £­ ÓÃÀ´²éÑ¯¼°²Ù×÷äÖÈ¾ÒýÇæµÄ½Ó¿Ú¡£
+&emsp;&emsp;2. æµè§ˆå™¨å¼•æ“Ž ï¼ ç”¨æ¥æŸ¥è¯¢åŠæ“ä½œæ¸²æŸ“å¼•æ“Žçš„æŽ¥å£ã€‚
 
-&emsp;&emsp;3. äÖÈ¾ÒýÇæ £­ ÓÃÀ´ÏÔÊ¾ÇëÇóµÄÄÚÈÝ£¬ÀýÈç£¬Èç¹ûÇëÇóÄÚÈÝÎªhtml£¬Ëü¸ºÔð½âÎöhtml¼°css£¬²¢½«½âÎöºóµÄ½á¹ûÏÔÊ¾³öÀ´¡£
+&emsp;&emsp;3. æ¸²æŸ“å¼•æ“Ž ï¼ ç”¨æ¥æ˜¾ç¤ºè¯·æ±‚çš„å†…å®¹ï¼Œä¾‹å¦‚ï¼Œå¦‚æžœè¯·æ±‚å†…å®¹ä¸ºhtmlï¼Œå®ƒè´Ÿè´£è§£æžhtmlåŠcssï¼Œå¹¶å°†è§£æžåŽçš„ç»“æžœæ˜¾ç¤ºå‡ºæ¥ã€‚
 
-&emsp;&emsp;4. ÍøÂç £­ ÓÃÀ´Íê³ÉÍøÂçµ÷ÓÃ£¬ÀýÈçhttpÇëÇó£¬Ëü¾ßÓÐÆ½Ì¨ÎÞ¹ØµÄ½Ó¿Ú£¬¿ÉÒÔÔÚ²»Í¬Æ½Ì¨ÉÏ¹¤×÷¡£
+&emsp;&emsp;4. ç½‘ç»œ ï¼ ç”¨æ¥å®Œæˆç½‘ç»œè°ƒç”¨ï¼Œä¾‹å¦‚httpè¯·æ±‚ï¼Œå®ƒå…·æœ‰å¹³å°æ— å…³çš„æŽ¥å£ï¼Œå¯ä»¥åœ¨ä¸åŒå¹³å°ä¸Šå·¥ä½œã€‚
 
-&emsp;&emsp;5. UIºó¶Ë £­ ÓÃÀ´»æÖÆÀàËÆ×éºÏÑ¡Ôñ¿ò¼°¶Ô»°¿òµÈ»ù±¾×é¼þ£¬¾ßÓÐ²»ÌØ¶¨ÓÚÄ³¸öÆ½Ì¨µÄÍ¨ÓÃ½Ó¿Ú£¬µ×²ãÊ¹ÓÃ²Ù×÷ÏµÍ³µÄÓÃ»§½Ó¿Ú¡£
+&emsp;&emsp;5. UIåŽç«¯ ï¼ ç”¨æ¥ç»˜åˆ¶ç±»ä¼¼ç»„åˆé€‰æ‹©æ¡†åŠå¯¹è¯æ¡†ç­‰åŸºæœ¬ç»„ä»¶ï¼Œå…·æœ‰ä¸ç‰¹å®šäºŽæŸä¸ªå¹³å°çš„é€šç”¨æŽ¥å£ï¼Œåº•å±‚ä½¿ç”¨æ“ä½œç³»ç»Ÿçš„ç”¨æˆ·æŽ¥å£ã€‚
 
-&emsp;&emsp;6. JS½âÊÍÆ÷ £­ ÓÃÀ´½âÊÍÖ´ÐÐJS´úÂë¡£
+&emsp;&emsp;6. JSè§£é‡Šå™¨ ï¼ ç”¨æ¥è§£é‡Šæ‰§è¡ŒJSä»£ç ã€‚
 
-&emsp;&emsp;7. Êý¾Ý´æ´¢ £­ ÊôÓÚ³Ö¾Ã²ã£¬ä¯ÀÀÆ÷ÐèÒªÔÚÓ²ÅÌÖÐ±£´æÀàËÆcookieµÄ¸÷ÖÖÊý¾Ý£¬HTML5¶¨ÒåÁËweb database¼¼Êõ£¬ÕâÊÇÒ»ÖÖÇáÁ¿¼¶ÍêÕûµÄ¿Í»§¶Ë´æ´¢¼¼Êõ
+&emsp;&emsp;7. æ•°æ®å­˜å‚¨ ï¼ å±žäºŽæŒä¹…å±‚ï¼Œæµè§ˆå™¨éœ€è¦åœ¨ç¡¬ç›˜ä¸­ä¿å­˜ç±»ä¼¼cookieçš„å„ç§æ•°æ®ï¼ŒHTML5å®šä¹‰äº†web databaseæŠ€æœ¯ï¼Œè¿™æ˜¯ä¸€ç§è½»é‡çº§å®Œæ•´çš„å®¢æˆ·ç«¯å­˜å‚¨æŠ€æœ¯
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/web-001.png)
 
-##äÖÈ¾ÒýÇæ
+##æ¸²æŸ“å¼•æ“Ž
 
-&emsp;&emsp;äÖÈ¾ÒýÇæµÄÖ°Ôð¾ÍÊÇäÖÈ¾£¬¼´ÔÚä¯ÀÀÆ÷´°¿ÚÖÐÏÔÊ¾ËùÇëÇóµÄÄÚÈÝ¡£
+&emsp;&emsp;æ¸²æŸ“å¼•æ“Žçš„èŒè´£å°±æ˜¯æ¸²æŸ“ï¼Œå³åœ¨æµè§ˆå™¨çª—å£ä¸­æ˜¾ç¤ºæ‰€è¯·æ±‚çš„å†…å®¹ã€‚
 
-&emsp;&emsp;Ä¬ÈÏÇé¿öÏÂ£¬äÖÈ¾ÒýÇæ¿ÉÒÔÏÔÊ¾html¡¢xmlÎÄµµ¼°Í¼Æ¬£¬ËüÒ²¿ÉÒÔ½èÖú²å¼þ£¨Ò»ÖÖä¯ÀÀÆ÷À©Õ¹£©ÏÔÊ¾ÆäËûÀàÐÍÊý¾Ý£¬ÀýÈçÊ¹ÓÃPDFÔÄ¶ÁÆ÷²å¼þ£¬¿ÉÒÔÏÔÊ¾PDF¸ñÊ½£¬½«ÓÉ×¨ÃÅÒ»ÕÂ½²½â²å¼þ¼°À©Õ¹£¬ÕâÀïÖ»ÌÖÂÛäÖÈ¾ÒýÇæ×îÖ÷ÒªµÄÓÃÍ¾¡ª¡ªÏÔÊ¾Ó¦ÓÃÁËCSSÖ®ºóµÄhtml¼°Í¼Æ¬¡£
+&emsp;&emsp;é»˜è®¤æƒ…å†µä¸‹ï¼Œæ¸²æŸ“å¼•æ“Žå¯ä»¥æ˜¾ç¤ºhtmlã€xmlæ–‡æ¡£åŠå›¾ç‰‡ï¼Œå®ƒä¹Ÿå¯ä»¥å€ŸåŠ©æ’ä»¶ï¼ˆä¸€ç§æµè§ˆå™¨æ‰©å±•ï¼‰æ˜¾ç¤ºå…¶ä»–ç±»åž‹æ•°æ®ï¼Œä¾‹å¦‚ä½¿ç”¨PDFé˜…è¯»å™¨æ’ä»¶ï¼Œå¯ä»¥æ˜¾ç¤ºPDFæ ¼å¼ï¼Œå°†ç”±ä¸“é—¨ä¸€ç« è®²è§£æ’ä»¶åŠæ‰©å±•ï¼Œè¿™é‡Œåªè®¨è®ºæ¸²æŸ“å¼•æ“Žæœ€ä¸»è¦çš„ç”¨é€”â€”â€”æ˜¾ç¤ºåº”ç”¨äº†CSSä¹‹åŽçš„htmlåŠå›¾ç‰‡ã€‚
 
-###äÖÈ¾ÒýÇæ¼ò½é
+###æ¸²æŸ“å¼•æ“Žç®€ä»‹
 
-&emsp;&emsp;±¾ÎÄËùÌÖÂÛµÄä¯ÀÀÆ÷¡ª¡ªFirefox¡¢ChromeºÍSafariÊÇ»ùÓÚÁ½ÖÖäÖÈ¾ÒýÇæ¹¹½¨µÄ£¬FirefoxÊ¹ÓÃGeoko¡ª¡ªMozilla×ÔÖ÷ÑÐ·¢µÄäÖÈ¾ÒýÇæ£¬SafariºÍChrome¶¼Ê¹ÓÃwebkit¡£
+&emsp;&emsp;æœ¬æ–‡æ‰€è®¨è®ºçš„æµè§ˆå™¨â€”â€”Firefoxã€Chromeå’ŒSafariæ˜¯åŸºäºŽä¸¤ç§æ¸²æŸ“å¼•æ“Žæž„å»ºçš„ï¼ŒFirefoxä½¿ç”¨Geokoâ€”â€”Mozillaè‡ªä¸»ç ”å‘çš„æ¸²æŸ“å¼•æ“Žï¼ŒSafariå’ŒChromeéƒ½ä½¿ç”¨webkitã€‚
 
-&emsp;&emsp;WebkitÊÇÒ»¿î¿ªÔ´äÖÈ¾ÒýÇæ£¬Ëü±¾À´ÊÇÎªLinuxÆ½Ì¨ÑÐ·¢µÄ£¬ºóÀ´ÓÉAppleÒÆÖ²µ½Mac¼°WindowsÉÏ£¬Ïà¹ØÄÚÈÝÇë²Î¿¼http://webkit.org¡£
+&emsp;&emsp;Webkitæ˜¯ä¸€æ¬¾å¼€æºæ¸²æŸ“å¼•æ“Žï¼Œå®ƒæœ¬æ¥æ˜¯ä¸ºLinuxå¹³å°ç ”å‘çš„ï¼ŒåŽæ¥ç”±Appleç§»æ¤åˆ°MacåŠWindowsä¸Šï¼Œç›¸å…³å†…å®¹è¯·å‚è€ƒhttp://webkit.orgã€‚
 
-###äÖÈ¾Ö÷Á÷³Ì
+###æ¸²æŸ“ä¸»æµç¨‹
 
-&emsp;&emsp;äÖÈ¾ÒýÇæÊ×ÏÈÍ¨¹ýÍøÂç»ñµÃËùÇëÇóÎÄµµµÄÄÚÈÝ£¬Í¨³£ÒÔ8K·Ö¿éµÄ·½Ê½Íê³É¡£
-¡¡¡¡
-&emsp;&emsp;ÏÂÃæÊÇäÖÈ¾ÒýÇæÔÚÈ¡µÃÄÚÈÝÖ®ºóµÄ»ù±¾Á÷³Ì£º
+&emsp;&emsp;æ¸²æŸ“å¼•æ“Žé¦–å…ˆé€šè¿‡ç½‘ç»œèŽ·å¾—æ‰€è¯·æ±‚æ–‡æ¡£çš„å†…å®¹ï¼Œé€šå¸¸ä»¥8Kåˆ†å—çš„æ–¹å¼å®Œæˆã€‚
+ã€€ã€€
+&emsp;&emsp;ä¸‹é¢æ˜¯æ¸²æŸ“å¼•æ“Žåœ¨å–å¾—å†…å®¹ä¹‹åŽçš„åŸºæœ¬æµç¨‹ï¼š
 
-½âÎöhtmlÒÔ¹¹½¨domÊ÷ -> ¹¹½¨renderÊ÷ -> ²¼¾ÖrenderÊ÷ -> »æÖÆrenderÊ÷
+è§£æžhtmlä»¥æž„å»ºdomæ ‘ -> æž„å»ºrenderæ ‘ -> å¸ƒå±€renderæ ‘ -> ç»˜åˆ¶renderæ ‘
 
 ![](../images/web-002.png)
 
-&emsp;&emsp;äÖÈ¾ÒýÇæ¿ªÊ¼½âÎöhtml£¬²¢½«±êÇ©×ª»¯ÎªÄÚÈÝÊ÷ÖÐµÄdom½Úµã¡£½Ó×Å£¬Ëü½âÎöÍâ²¿CSSÎÄ¼þ¼°style±êÇ©ÖÐµÄÑùÊ½ÐÅÏ¢¡£ÕâÐ©ÑùÊ½ÐÅÏ¢ÒÔ¼°htmlÖÐµÄ¿É¼ûÐÔÖ¸Áî½«±»ÓÃÀ´¹¹½¨ÁíÒ»¿ÃÊ÷¡ª¡ªrenderÊ÷¡£
-¡¡
-&emsp;&emsp;RenderÊ÷ÓÉÒ»Ð©°üº¬ÓÐÑÕÉ«ºÍ´óÐ¡µÈÊôÐÔµÄ¾ØÐÎ×é³É£¬ËüÃÇ½«±»°´ÕÕÕýÈ·µÄË³ÐòÏÔÊ¾µ½ÆÁÄ»ÉÏ¡£
-¡¡¡¡
-&emsp;&emsp;RenderÊ÷¹¹½¨ºÃÁËÖ®ºó£¬½«»áÖ´ÐÐ²¼¾Ö¹ý³Ì£¬Ëü½«È·¶¨Ã¿¸ö½ÚµãÔÚÆÁÄ»ÉÏµÄÈ·ÇÐ×ø±ê¡£ÔÙÏÂÒ»²½¾ÍÊÇ»æÖÆ£¬¼´±éÀúrenderÊ÷£¬²¢Ê¹ÓÃUIºó¶Ë²ã»æÖÆÃ¿¸ö½Úµã¡£
-¡¡¡¡
-&emsp;&emsp;ÖµµÃ×¢ÒâµÄÊÇ£¬Õâ¸ö¹ý³ÌÊÇÖð²½Íê³ÉµÄ£¬ÎªÁË¸üºÃµÄÓÃ»§ÌåÑé£¬äÖÈ¾ÒýÇæ½«»á¾¡¿ÉÄÜÔçµÄ½«ÄÚÈÝ³ÊÏÖµ½ÆÁÄ»ÉÏ£¬²¢²»»áµÈµ½ËùÓÐµÄhtml¶¼½âÎöÍê³ÉÖ®ºóÔÙÈ¥¹¹½¨ºÍ²¼¾ÖrenderÊ÷¡£ËüÊÇ½âÎöÍêÒ»²¿·ÖÄÚÈÝ¾ÍÏÔÊ¾Ò»²¿·ÖÄÚÈÝ£¬Í¬Ê±£¬¿ÉÄÜ»¹ÔÚÍ¨¹ýÍøÂçÏÂÔØÆäÓàÄÚÈÝ¡£
+&emsp;&emsp;æ¸²æŸ“å¼•æ“Žå¼€å§‹è§£æžhtmlï¼Œå¹¶å°†æ ‡ç­¾è½¬åŒ–ä¸ºå†…å®¹æ ‘ä¸­çš„domèŠ‚ç‚¹ã€‚æŽ¥ç€ï¼Œå®ƒè§£æžå¤–éƒ¨CSSæ–‡ä»¶åŠstyleæ ‡ç­¾ä¸­çš„æ ·å¼ä¿¡æ¯ã€‚è¿™äº›æ ·å¼ä¿¡æ¯ä»¥åŠhtmlä¸­çš„å¯è§æ€§æŒ‡ä»¤å°†è¢«ç”¨æ¥æž„å»ºå¦ä¸€æ£µæ ‘â€”â€”renderæ ‘ã€‚
+ã€€
+&emsp;&emsp;Renderæ ‘ç”±ä¸€äº›åŒ…å«æœ‰é¢œè‰²å’Œå¤§å°ç­‰å±žæ€§çš„çŸ©å½¢ç»„æˆï¼Œå®ƒä»¬å°†è¢«æŒ‰ç…§æ­£ç¡®çš„é¡ºåºæ˜¾ç¤ºåˆ°å±å¹•ä¸Šã€‚
+ã€€ã€€
+&emsp;&emsp;Renderæ ‘æž„å»ºå¥½äº†ä¹‹åŽï¼Œå°†ä¼šæ‰§è¡Œå¸ƒå±€è¿‡ç¨‹ï¼Œå®ƒå°†ç¡®å®šæ¯ä¸ªèŠ‚ç‚¹åœ¨å±å¹•ä¸Šçš„ç¡®åˆ‡åæ ‡ã€‚å†ä¸‹ä¸€æ­¥å°±æ˜¯ç»˜åˆ¶ï¼Œå³éåŽ†renderæ ‘ï¼Œå¹¶ä½¿ç”¨UIåŽç«¯å±‚ç»˜åˆ¶æ¯ä¸ªèŠ‚ç‚¹ã€‚
+ã€€ã€€
+&emsp;&emsp;å€¼å¾—æ³¨æ„çš„æ˜¯ï¼Œè¿™ä¸ªè¿‡ç¨‹æ˜¯é€æ­¥å®Œæˆçš„ï¼Œä¸ºäº†æ›´å¥½çš„ç”¨æˆ·ä½“éªŒï¼Œæ¸²æŸ“å¼•æ“Žå°†ä¼šå°½å¯èƒ½æ—©çš„å°†å†…å®¹å‘ˆçŽ°åˆ°å±å¹•ä¸Šï¼Œå¹¶ä¸ä¼šç­‰åˆ°æ‰€æœ‰çš„htmléƒ½è§£æžå®Œæˆä¹‹åŽå†åŽ»æž„å»ºå’Œå¸ƒå±€renderæ ‘ã€‚å®ƒæ˜¯è§£æžå®Œä¸€éƒ¨åˆ†å†…å®¹å°±æ˜¾ç¤ºä¸€éƒ¨åˆ†å†…å®¹ï¼ŒåŒæ—¶ï¼Œå¯èƒ½è¿˜åœ¨é€šè¿‡ç½‘ç»œä¸‹è½½å…¶ä½™å†…å®¹ã€‚
 
-<div align = center>webkitÖ÷Á÷³Ì</div>
+<div align = center>webkitä¸»æµç¨‹</div>
 
 ![](../images/web-003.png)
 
-<div align = center>MozillaµÄGeokoäÖÈ¾ÒýÇæÖ÷Á÷³Ì</div>
+<div align = center>Mozillaçš„Geokoæ¸²æŸ“å¼•æ“Žä¸»æµç¨‹</div>
 
-![](../images/web-004.png)
+![](../images/web-004.jpg)
 
-&emsp;&emsp;¾¡¹ÜwebkitºÍGeckoÊ¹ÓÃµÄÊõÓïÉÔÓÐ²»Í¬£¬ËûÃÇµÄÖ÷ÒªÁ÷³Ì»ù±¾ÏàÍ¬¡£Gecko³Æ¿É¼ûµÄ¸ñÊ½»¯ÔªËØ×é³ÉµÄÊ÷ÎªframeÊ÷£¬Ã¿¸öÔªËØ¶¼ÊÇÒ»¸öframe£¬webkitÔòÊ¹ÓÃrenderÊ÷Õâ¸öÃû´ÊÀ´ÃüÃûÓÉäÖÈ¾¶ÔÏó×é³ÉµÄÊ÷¡£WebkitÖÐÔªËØµÄ¶¨Î»³ÆÎª²¼¾Ö£¬¶øGeckoÖÐ³ÆÎª»ØÁ÷¡£Webkit³ÆÀûÓÃdom½Úµã¼°ÑùÊ½ÐÅÏ¢È¥¹¹½¨renderÊ÷µÄ¹ý³ÌÎªattachment£¬GeckoÔÚhtmlºÍdomÊ÷Ö®¼ä¸½¼ÓÁËÒ»²ã£¬Õâ²ã³ÆÎªÄÚÈÝ½ÓÊÕÆ÷£¬Ïàµ±ÖÆÔìdomÔªËØµÄ¹¤³§¡£ÏÂÃæ½«ÌÖÂÛÁ÷³ÌÖÐµÄ¸÷¸ö½×¶Î¡£
+&emsp;&emsp;å°½ç®¡webkitå’ŒGeckoä½¿ç”¨çš„æœ¯è¯­ç¨æœ‰ä¸åŒï¼Œä»–ä»¬çš„ä¸»è¦æµç¨‹åŸºæœ¬ç›¸åŒã€‚Geckoç§°å¯è§çš„æ ¼å¼åŒ–å…ƒç´ ç»„æˆçš„æ ‘ä¸ºframeæ ‘ï¼Œæ¯ä¸ªå…ƒç´ éƒ½æ˜¯ä¸€ä¸ªframeï¼Œwebkitåˆ™ä½¿ç”¨renderæ ‘è¿™ä¸ªåè¯æ¥å‘½åç”±æ¸²æŸ“å¯¹è±¡ç»„æˆçš„æ ‘ã€‚Webkitä¸­å…ƒç´ çš„å®šä½ç§°ä¸ºå¸ƒå±€ï¼Œè€ŒGeckoä¸­ç§°ä¸ºå›žæµã€‚Webkitç§°åˆ©ç”¨domèŠ‚ç‚¹åŠæ ·å¼ä¿¡æ¯åŽ»æž„å»ºrenderæ ‘çš„è¿‡ç¨‹ä¸ºattachmentï¼ŒGeckoåœ¨htmlå’Œdomæ ‘ä¹‹é—´é™„åŠ äº†ä¸€å±‚ï¼Œè¿™å±‚ç§°ä¸ºå†…å®¹æŽ¥æ”¶å™¨ï¼Œç›¸å½“åˆ¶é€ domå…ƒç´ çš„å·¥åŽ‚ã€‚ä¸‹é¢å°†è®¨è®ºæµç¨‹ä¸­çš„å„ä¸ªé˜¶æ®µã€‚
 
-***²Î¿¼ÎÄµµ£ºhttp://kb.cnblogs.com/page/129756 ***
+***å‚è€ƒæ–‡æ¡£ï¼šhttp://kb.cnblogs.com/page/129756 ***
 
 
 
