@@ -5,6 +5,7 @@
 
 ##github介绍
 
+
 ##github服务端
 
 ##github客户端
@@ -13,9 +14,9 @@
 
 ####准备工作
 
-**windows下git工具**
+#####windows下git工具
 
-1.tortoisegit
+**1.tortoisegit**
 
 tortoisegit是类似于tortoisesvn的工具
 
@@ -23,7 +24,7 @@ tortoisegit是类似于tortoisesvn的工具
 
 执行默认安装操作即可，右击后会发现多出几个快捷键（无法截图）
 
-2.msysgit
+**2.msysgit**
 
 github是服务端，要想在自己电脑上使用git我们还需要一个git客户端，我这里选用msysgit，这个只是提供了git的核心功能，而且是基于命令行的。
 
@@ -35,7 +36,7 @@ github是服务端，要想在自己电脑上使用git我们还需要一个git客户端，我这里选用msysgi
 
 ![](../images/git-001.PNG)
 
-3.git for windows
+**3.git for windows**
 
 下载地址：https://windows.github.com/
 
@@ -46,7 +47,28 @@ github是服务端，要想在自己电脑上使用git我们还需要一个git客户端，我这里选用msysgi
 
 使用tortoisegit和msysgit工具
 
+**1.创建SSH KEY**
 
+GitHub选择的默认通信方式是SSH，所以要先在Git里面生成ssh key，打开Git Bash在其中输入如下命令：
+ssh-keygen -t rsa -C "your_email@example.com"
+
+之后会让你选择是否对存放SSH Key的文件夹进行加密，一般都不需要的。一路回车，就OK了。
+
+在c盘，当前用户文件夹下，有个.ssh文件夹，在里边找到 id_rsa.pub文件，用记事本打开，复制其中的全部内容。
+登陆你的GitHub账户，依次点击Account Settings > SSH Public Keys > Add another public key，把id_rsa.pub中的内容拷贝到key中，title可选。
+至此，基本的设置已经完成了。
+
+**2.然后git clone是下载工程**
+
+![](../images/git-012.png)
+
+**3.执行git commit -> master**
+
+![](../images/git-012.png)
+
+**4.到提交成功的操作参考下图**
+
+![](../images/git-013.png)
 
 ####方法二
 
@@ -96,7 +118,7 @@ git status是查看修改的文件，add后变为绿色的
 
 ![](../images/git-006.png)
 
-**上传修改内容**
+**2.上传修改内容**
 
 如果有修改的会类似下图显示
 
