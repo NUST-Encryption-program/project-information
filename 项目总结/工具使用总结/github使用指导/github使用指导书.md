@@ -46,9 +46,29 @@ github是服务端，要想在自己电脑上使用git我们还需要一个git客户端，我这里选用msysgi
 
 使用tortoisegit和msysgit工具
 
+
+
 ####方法二
 
 只使用msysgit工具
+
+![](../images/git-010.png)
+
+说明：1.git clone是下载工程
+
+2.切换到下载目录
+
+3.git add 是新增要提交的文件
+
+git status是查看修改的文件，add后变为绿色的
+
+4.git commit是提交动作
+
+5.git push是提交到github服务端
+
+其他命令可以参考git help
+
+![](../images/git-011.png)
 
 ####方法三
 
