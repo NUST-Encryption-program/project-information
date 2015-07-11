@@ -20,7 +20,7 @@ GithubÊÇÒ»¸öÌá¹©ÁËGit´úÂë°æ±¾¹ÜÀí·şÎñµÄ·şÎñÆ÷£¬Ê¹ÓÃ°æ±¾¿ØÖÆºÍ´úÂëÍĞ¹ÜÓĞÊ²Ã´ºÃ´¦Ä
 
 Git¶ÔÎÄ¼ş¹ÜÀíÁ÷³ÌÍ¼
 
-![](../images/git-015.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-015.png)
 
 &emsp;&emsp;1. Checkout¡£µÚÒ»´ÎÊ¹ÓÃĞèÒª´ÓÔ¶³Ì·şÎñÆ÷fetch²¢checkout HEADÀ´´´½¨±¾µØµÄ¹¤×÷Ä¿Â¼£¬Ö®ºóÎÒÃÇ±ã¿ÉÒÔÔÚ¹¤×÷Ä¿Â¼ÀïÈÎÒâµØÌí¼Ó/É¾³ı/ĞŞ¸ÄÎÄ¼ş£¬È»ºóÌá½»µ½±¾µØµÄ²Ö¿â¡£
 
@@ -64,7 +64,7 @@ githubÊÇ·şÎñ¶Ë£¬ÒªÏëÔÚ×Ô¼ºµçÄÔÉÏÊ¹ÓÃgitÎÒÃÇ»¹ĞèÒªÒ»¸ögit¿Í»§¶Ë£¬ÎÒÕâÀïÑ¡ÓÃmsysgi
 
 È»ºóÖ´ĞĞgitÃüÁî£¬ÈçÏÂÍ¼±íÊ¾°²×°³É¹¦
 
-![](../images/git-001.PNG)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-001.PNG)
 
 **3.git for windows**
 
@@ -90,21 +90,21 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 **2.È»ºógit cloneÊÇÏÂÔØ¹¤³Ì**
 
-![](../images/git-012.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-012.png)
 
 **3.Ö´ĞĞgit commit -> master**
 
-![](../images/git-012.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-012.png)
 
 **4.µ½Ìá½»³É¹¦µÄ²Ù×÷²Î¿¼ÏÂÍ¼**
 
-![](../images/git-013.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-013.png)
 
 ####·½·¨¶ş
 
 Ö»Ê¹ÓÃmsysgit¹¤¾ß
 
-![](../images/git-010.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-010.png)
 
 ËµÃ÷£º1.git cloneÊÇÏÂÔØ¹¤³Ì
 
@@ -120,7 +120,7 @@ git statusÊÇ²é¿´ĞŞ¸ÄµÄÎÄ¼ş£¬addºó±äÎªÂÌÉ«µÄ
 
 ÆäËûÃüÁî¿ÉÒÔ²Î¿¼git help
 
-![](../images/git-011.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-011.png)
 
 ####·½·¨Èı
 
@@ -130,37 +130,37 @@ git statusÊÇ²é¿´ĞŞ¸ÄµÄÎÄ¼ş£¬addºó±äÎªÂÌÉ«µÄ
 
 Ë«»÷´ò¿ªgithub¹¤¾ß£¬ĞèÒªµÇÂ¼githubÕËºÅ£¬µÇÂ¼ºóÒ³ÃæÈçÏÂ
 
-![](../images/git-002.PNG)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-002.PNG)
 
 È»ºóÒªÏÂÔØgithubÉÏµÄ¹¤³Ì£¬²Ù×÷ÈçÏÂÍ¼
 
-![](../images/git-003.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-003.png)
 
 È»ºóµã»÷clone£¬È»ºóÑ¡ÔñcloneÂ·¾¶
 
-![](../images/git-004.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-004.png)
 
 ÏÂÔØ¹ı³ÌÈçÏÂ
 
-![](../images/git-005.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-005.png)
 
 ÏÂÔØÍê³Éºó
 
-![](../images/git-006.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-006.png)
 
 **2.ÉÏ´«ĞŞ¸ÄÄÚÈİ**
 
 Èç¹ûÓĞĞŞ¸ÄµÄ»áÀàËÆÏÂÍ¼ÏÔÊ¾
 
-![](../images/git-007.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-007.png)
 
 commitÖ®ºóÈçÏÂÍ¼ÏÔÊ¾
 
-![](../images/git-008.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-008.png)
 
 È»ºóµã»÷syncÍ¬²½¼ü£¬ÏÔÊ¾ÈçÏÂÍ¼£¬±íÊ¾ÉÏ´«ok
 
-![](../images/git-009.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](../images/git-009.png)
 
 ####×¢Òâ
 
