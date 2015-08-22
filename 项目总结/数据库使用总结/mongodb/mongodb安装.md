@@ -33,5 +33,23 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/?_ga=1.188199
 
 根据自己windows机器的位数，下载相应的mongodb版本，这里使用64位mongodb版本，解压下载包即可
 
-验证安装是否ok：直接执行mongod.exe文件,一般会报如下错误
+ ![](../images/mongodb-01.JPG)
+
+验证安装是否ok：直接执行bin/mongod.exe文件,一般会报如下错误,现在的版本使用ssl访问，需要两个库libeay32.dll和ssleay32.dll和ssleay32
+
+另外是由于没有data/db，新建这个启动就ok了
+
+启动命令是：mongod.exe --dbpath E:\gaoyanshou\mongodb-win32-x86_64-2008plus-ssl-3.1.7\data\db
+
+ ![](../images/mongodb-02.JPG)
+
+客户端启动命令：mongo.exe
+
+ ![](../images/mongodb-03.JPG)
+
+
+
+
+
+
 
