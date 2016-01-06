@@ -41,7 +41,8 @@
 
 * 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows 64-bit”超链接。
 
- ![](../../../images/image03.png =60x100)
+<img src="../../../images/image03.png width = "300" height = "200" alt="图片名称" align=center />
+
 
 * 在下图所示界面中，单击链接进行下载。
  
