@@ -40,7 +40,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
 
 * 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows 64-bit”超链接。
-
+<img src="http://ww2.sinaimg.cn/bmiddle/88070423gw1ep30aw8an7g204d04gkgd.gif" width="400" height="400" alt="亦菲表演机器猫"/>
  ![](https://github.com/NUST-Encryption-program/project-information/blob/master/images/image03.png = 100x100)
 
 * 在下图所示界面中，单击链接进行下载。
