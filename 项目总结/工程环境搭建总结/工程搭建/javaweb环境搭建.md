@@ -73,11 +73,9 @@
 
 	（3）单击“新建”按钮，弹出“新建系统变量”对话框，在这里需要设置3个变量，变量名分别为：JAVA_HOME、CLASSPATH和Path。
  
- 新建JAVA_HOME：在变量名输入框中输入JAVA_HOME，在变量值输入框中输入JDK的安装目录。
- 
- 新建CLASSPATH：在变量名输入框中输入CLASSPATH，在变量值输入框中输入.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
- 
- Path一般是已经存在了，打开Path：在变量值输入框中的最后输入%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意原来Path的变量值末尾有没有分号，如果没有先输入分号再输入上面的代码）。
+		新建JAVA_HOME：在变量名输入框中输入JAVA_HOME，在变量值输入框中输入JDK的安装目录。
+ 		新建CLASSPATH：在变量名输入框中输入CLASSPATH，在变量值输入框中输入.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+ 		Path一般是已经存在了，打开Path：在变量值输入框中的最后输入%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意原来Path的变量值末尾有没有分号，如果没有先输入分号再输入上面的代码）。
 
 	（4）保存上述的配置，然后检验JDK环境是否搭建成功，运行cmd输入java -version（java和-version之间有空格），若如上图所示，显示了版本信息，则说明安装和配置成功。
  
