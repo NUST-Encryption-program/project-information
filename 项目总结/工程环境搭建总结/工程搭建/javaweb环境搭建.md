@@ -52,29 +52,19 @@
 ==================================
 <h5 id="2.1.1.2">jdk1.7.0_71的下载与安装</h5>
 
-（1）打开浏览器，在地址栏中输入下面地址，进入jdk下载页面。
+* 打开浏览器，在地址栏中输入下面地址，进入jdk下载页面。
 
-[下载地址]：http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#sjre-7u71-oth-JPR
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#sjre-7u71-oth-JPR)
 
-（2）在新页面中，同意协议并根据计算机硬件和系统选择适当的版本进行下载，这里选择“jdk-7u71-windows-x64.exe”。如图所示。
+* 根据自己机型的不同，选择相应的版本，由于我机器是64位系统，这里选择“jdk-7u71-windows-x64.exe”。如图所示。
 
- ![](../../../images/image05.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image05.png" align="middle"  height=200px width=450px alt="图片3"/>
 
-（3）下载完成后双击exe安装程序，出现安装程序界面，如图所示。
+* 下载完成后双击exe安装程序，出现安装程序界面，按照指导一步一步安装，直到出现已安装成功的界面，表示安装程序已经结束。
 
+* 正常安装结束后，已经可以使用，如果你不确定是否安装成功的话，可以切换到dos下，执行java -version，如果安装ok的话，会显示如下图
 
-
-（4）单击“接受”按钮，在弹出的自定义安装界面对话框中可以选择JDK的安装路径，默认为C盘，如图所示。
-
-
-
-（5）如果不想使用系统默认的安装路径，单击“更改”按钮，在弹出来的更改当前目标文件夹对话框中，可以重新选择JDK的安装路径，如图所示。
-
-
-
-（6）单击“确定”按钮，重新回到自定义安装界面，然后单击“下一步”按钮，系统会自动安装，直到出现已安装成功的界面，表示Java JDK安装成功，如图所示。
-
-
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image15.png" align="middle"  height=200px width=450px alt="图片3"/>
 
 （7）JDK开发工具安装成功后，接下来便是对JDK进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，单击“属性”。
 
