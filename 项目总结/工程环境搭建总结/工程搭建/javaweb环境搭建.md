@@ -54,13 +54,13 @@
 
 * 根据自己机型的不同，选择相应的版本，由于我机器是64位系统，这里选择“jdk-7u71-windows-x64.exe”。如图所示。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image05.png" align="middle"  height=200px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image05.png" align="middle"  alt="图片3"/>
 
 * 下载完成后双击exe安装程序，出现安装程序界面，按照指导一步一步安装，直到出现已安装成功的界面，表示安装程序已经结束。
 
 * 正常安装结束后，已经可以使用，如果你不确定是否安装成功的话，可以切换到dos下，执行java -version，如果安装ok的话，会显示如下图
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image15.png" align="middle"  height=200px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image15.png" align="middle" alt="图片3"/>
 
 * 如果使用java -version并没有显示java版本信息，那么，我们就需要手动设置jdk的环境变量。具体设置环境变量步骤：
 
@@ -99,7 +99,7 @@
  
 * 在cmd命令下输入：startup，如果出现如下对话框，表明服务启动成功。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image20.png" align="middle"  height=150px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image20.png" align="middle" alt="图片3"/>
 
 * 启动成功后，测试Tomcat，打开浏览器，在地址栏中输入127.0.0.1:8080回车，如果看到Tomcat自带的一个JSP页面，说明JDK和Tomcat已搭建成功。如图所示。
 
@@ -124,7 +124,7 @@
  
 * 在cmd命令下输入：mvn -v（注意mvn和-v之间有空格），如果出现如下对话框，表明maven配置成功。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image25.png" align="middle"  height=150px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image25.png" align="middle"  alt="图片3"/>
 
 ==================================
 <h5 id="2.1.1.5">mysql5.6的下载与安装</h5>
@@ -147,7 +147,7 @@
  
 * 安装成功后接着输入net start mysql启动服务。也可以选择手动启动mysql服务。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image29.png" align="middle"  height=150px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image29.png" align="middle"  alt="图片3"/>
 
 * mysql的实用，参考[mysql总结](https://github.com/NUST-Encryption-program/project-information/tree/master/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/mysql)
 
