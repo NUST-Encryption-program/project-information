@@ -37,7 +37,7 @@
 
 * 打开浏览器，在地址栏中输入下面地址，进入Eclipse下载页面。
 
-<div align = center>[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)</div>
+<div align = center>[Eclipse下载地址]</div>(http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
 
 
 
