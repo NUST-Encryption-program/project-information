@@ -112,7 +112,7 @@
 
 * 在新页面中，选取任一链接点击进行下载，如图所示。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image22.png" align="middle"  height=200px width=400px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image22.png" align="middle"  alt="图片3"/>
 
 * 将下载后的apache-maven-3.3.1-bin.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
 
@@ -139,7 +139,7 @@
 
 * 下面安装mysql服务。在C:\Windows\System32目录下找到cmd.exe，右键以管理员身份运行。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image27.png" align="middle"  height=150px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image27.png" align="middle"  alt="图片3"/>
 
 * 以管理员身份打开cmd窗口后，将目录切换到你解压文件的bin目录。再输入mysqld install回车运行就可以了。若出现下面界面则表示安装成功。
 
