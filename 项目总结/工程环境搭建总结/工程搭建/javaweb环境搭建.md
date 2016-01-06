@@ -175,7 +175,7 @@ wen工程使用的是java，搭建需要以下步骤
 
 （7）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image33.png" align="middle"  height=600px width=800px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image33.png" align="middle"  height=400px width=800px alt="图片3"/>
 
 		  
 
