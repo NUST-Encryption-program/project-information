@@ -35,9 +35,7 @@
 ==================================
 <h5 id="2.1.1.1">Eclpise luna的下载与安装</h5>
 
-* 打开浏览器，在地址栏中输入下面地址，进入Eclipse下载页面。
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
+* 打开浏览器，在地址栏中输入[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)，进入Eclipse下载页面。
 
 * 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows64-bit”超链接。
 
@@ -52,9 +50,7 @@
 ==================================
 <h5 id="2.1.1.2">jdk1.7.0_71的下载与安装</h5>
 
-* 打开浏览器，在地址栏中输入下面地址，进入jdk下载页面。
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#sjre-7u71-oth-JPR)
+* 打开浏览器，在地址栏中输入[JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#sjre-7u71-oth-JPR)，进入jdk下载页面。
 
 * 根据自己机型的不同，选择相应的版本，由于我机器是64位系统，这里选择“jdk-7u71-windows-x64.exe”。如图所示。
 
@@ -67,6 +63,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image15.png" align="middle"  height=200px width=450px alt="图片3"/>
 
 * 如果使用java -version并没有显示java版本信息，那么，我们就需要手动设置jdk的环境变量。具体设置环境变量步骤：
+
 	（1）在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，单击“属性”。
 
 	（2）在弹出的系统属性的对话框中，单击“高级”选项卡，然后单击“环境变量”按钮，环境变量对话框中有两栏，上边的一栏是属于当前用户的环节变量，下边的是属于系统级环境变量，单击下边一栏中的“新建”按钮
@@ -82,14 +79,12 @@
 ==================================
 <h5 id="2.1.1.3">apache-tomcat-7.0.62的下载与配置</h5>
 
-（1）打开浏览器，在地址栏中输入下面地址，进入Tomcat7.0下载页面。
+* 打开浏览器，在地址栏中输入[tomcat下载地址](http://tomcat.apache.org/download-70.cgi)，进入Tomcat7.0下载页面。
 
-[下载地址]：http://tomcat.apache.org/download-70.cgi
-	
-（2）在下载页面下方，在Core节点下包含了Tomcat7服务器安装文件的不同平台下的不同版本，如图所示，此处单击“64-bit Windows zip（pgp,md5,sha1）”超链接，打开文件下载对话框，在该对话框中单击“保存”按钮，即可将Tomcat的安装文件下载到本地计算机中。
+* 在下载页面下方，在Core节点下包含了Tomcat7服务器安装文件的不同平台下的不同版本，如图所示，此处单击“64-bit Windows zip（pgp,md5,sha1）”超链接，打开文件下载对话框，在该对话框中单击“保存”按钮，即可将Tomcat的安装文件下载到本地计算机中。
 
- ![](../../../images/image16.png)
- 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image16.png" align="middle"  height=200px width=450px alt="图片3"/>
+
 （3）将下载后的apache-tomcat-7.0.62.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
  
 （4）Tomcat下载成功后，接下来便是对Tomcat进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，点击“属性”。
