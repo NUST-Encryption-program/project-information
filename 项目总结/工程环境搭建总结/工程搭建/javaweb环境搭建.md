@@ -37,7 +37,7 @@
 
 * 打开浏览器，在地址栏中输入下面地址，进入Eclipse下载页面。
 
-<center>[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
+<div  align="center">  [Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)</div>
 
 * 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows 64-bit”超链接。
 
