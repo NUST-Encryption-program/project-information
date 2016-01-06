@@ -99,7 +99,7 @@
  
 * 在cmd命令下输入：startup，如果出现如下对话框，表明服务启动成功。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image20.png" align="middle"  height=200px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image20.png" align="middle"  height=150px width=450px alt="图片3"/>
 
 * 启动成功后，测试Tomcat，打开浏览器，在地址栏中输入127.0.0.1:8080回车，如果看到Tomcat自带的一个JSP页面，说明JDK和Tomcat已搭建成功。如图所示。
 
@@ -112,7 +112,7 @@
 
 * 在新页面中，选取任一链接点击进行下载，如图所示。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image22.png" align="middle"  height=200px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image22.png" align="middle"  height=200px width=400px alt="图片3"/>
 
 * 将下载后的apache-maven-3.3.1-bin.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
 
@@ -120,46 +120,36 @@
 
  		新建M2_HOME：在变量名输入框中输入M2_HOME，在变量值输入框中输入maven的安装目录。
 
-		 打开Path：在变量值输入框中最后输入%M2_HOME%\bin
+		打开Path：在变量值输入框中最后输入%M2_HOME%\bin
  
 * 在cmd命令下输入：mvn -v（注意mvn和-v之间有空格），如果出现如下对话框，表明maven配置成功。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image25.png" align="middle"  height=200px width=450px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image25.png" align="middle"  height=150px width=450px alt="图片3"/>
 
 ==================================
 <h5 id="2.1.1.5">mysql5.6的下载与安装</h5>
 
-（1）打开浏览器，进入[mysql5.6下载地址](http://dev.mysql.com/downloads/mysql/)。这里我们使用ZIP Archive版。
+* 打开浏览器，进入[mysql5.6下载地址](http://dev.mysql.com/downloads/mysql/)。这里我们使用ZIP Archive版。
 
  ![](../../../images/image26.png)
 
-（2）点击“Download”后进入另一个页面，点击“No thanks,just start my download”进行下载。
+* 点击“Download”后进入另一个页面，点击“No thanks,just start my download”进行下载。
 
-（3）ZIP Archive版是免安装的，直接解压就可以了。将下载好的mysql-x.x.xx-winx64.zip解压到你想安装的地方。
+* ZIP Archive版是免安装的，直接解压就可以了。将下载好的mysql-x.x.xx-winx64.zip解压到你想安装的地方。
 
-（4）下面安装mysql服务。在C:\Windows\System32目录下找到cmd.exe，右键以管理员身份运行。
+* 下面安装mysql服务。在C:\Windows\System32目录下找到cmd.exe，右键以管理员身份运行。
 
- ![](../../../images/image27.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image27.png" align="middle"  height=150px width=450px alt="图片3"/>
 
-（5）以管理员身份打开cmd窗口后，将目录切换到你解压文件的bin目录。再输入mysqld install回车运行就可以了。若出现下面界面则表示安装成功。
+* 以管理员身份打开cmd窗口后，将目录切换到你解压文件的bin目录。再输入mysqld install回车运行就可以了。若出现下面界面则表示安装成功。
 
- ![](../../../images/image28.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image28.png" align="middle"  height=150px width=450px alt="图片3"/>
  
-（6）安装成功后接着输入net start mysql启动服务。也可以选择手动启动mysql服务。
+* 安装成功后接着输入net start mysql启动服务。也可以选择手动启动mysql服务。
 
- ![](../../../images/image29.png)
- 
-（7）打开MySQL。将目录切换到D:\Java web\mysql-5.6.25-winx64\bin（以你的路径为准），输入mysql -uroot -p，默认是没有密码的，回车进入。有密码的话，输入mysql -uroot -p回车输入密码。设置密码的方法：输入mysqladmin -uroot -p password 密码。（注意直接关闭cmd窗口并没有退出，要输入exit才会退出）
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image29.png" align="middle"  height=150px width=450px alt="图片3"/>
 
- ![](../../../images/image30.png)
- 
-（8）虽然打开了mysql，但过程较繁琐。解决的办法是，右键我的电脑->属性->高级系统设置->环境变量->Path->编辑，将你的mysql软件下的bin目录的全路径放里面。这里建议放在最前面，最后在目录的路径后面加个英文的分号，保存就可以了。
-
- ![](../../../images/image31.png)
-
-（9）配置好了环境变量，再运行一下，在cmd命令下输入：mysql -uroot -p，回车输入密码，再回车。
-
- ![](../../../images/image32.png)
+* mysql的实用，参考[mysql总结](https://github.com/NUST-Encryption-program/project-information/tree/master/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/mysql)
 
 ###<h3 id="2.1">2.2.环境搭建</h3>
 
@@ -185,7 +175,8 @@ wen工程使用的是java，搭建需要以下步骤
 
 （7）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
 
- ![](../../../images/image33.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image33.png" align="middle"  height=600px width=800px alt="图片3"/>
+
 		  
 
 
