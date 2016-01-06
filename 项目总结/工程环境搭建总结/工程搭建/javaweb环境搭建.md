@@ -85,71 +85,51 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image16.png" align="middle"  height=200px width=450px alt="图片3"/>
 
-（3）将下载后的apache-tomcat-7.0.62.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
+* 将下载后的apache-tomcat-7.0.62.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
  
-（4）Tomcat下载成功后，接下来便是对Tomcat进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，点击“属性”。
+* Tomcat下载成功后，接下来便是对Tomcat进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，点击“属性”。
 
-（5）在弹出的对话框中单击“高级”选项卡，然后单击“环境变量”，如图所示。
+* 同jdk环境变量操作类似，只是在这里需要设置的3个变量，分别是：CATALINA_HOME、CATALINA_BASE和Path。
 
- ![](../../../images/image10.png)
+ 		新建CATALINA_HOME:在变量名输入框中输入CATALINA_HOME，在变量值输入框中输入Tomcat的安装目录。
 
-（6）在弹出来的“环境变量”对话框中，单击“新建”，如图所示。
+ 		新建CATALINA_BASE:在变量名输入框中输入CATALINA_BASE，在变量值输入框中输入Tomcat的安装目录。
 
- ![](../../../images/image11.png)
-
-（7）单击“新建”，弹出“新建系统变量”对话框，在这里需要设置3个变量，分别是：CATALINA_HOME、CATALINA_BASE和Path。如图所示。
-
- 新建CATALINA_HOME:在变量名输入框中输入CATALINA_HOME，在变量值输入框中输入Tomcat的安装目录。
-
- 新建CATALINA_BASE:在变量名输入框中输入CATALINA_BASE，在变量值输入框中输入Tomcat的安装目录。
-
- 打开Path：在变量值输入框中最后输入%CATALINA_HOME%\lib;%CATALINA_HOME%\bin
-
- ![](../../../images/image17.png)
+ 		打开Path：在变量值输入框中最后输入%CATALINA_HOME%\lib;%CATALINA_HOME%\bin
  
- ![](../../../images/image18.png)
-  
- ![](../../../images/image19.png)
- 
-（8）在cmd命令下输入：startup，如果出现如下对话框，表明服务启动成功。
+* 在cmd命令下输入：startup，如果出现如下对话框，表明服务启动成功。
 
- ![](../../../images/image20.png)
- 
-（9）启动成功后，测试Tomcat，打开浏览器，在地址栏中输入127.0.0.1:8080回车，如果看到Tomcat自带的一个JSP页面，说明JDK和Tomcat已搭建成功。如图所示。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image20.png" align="middle"  height=200px width=450px alt="图片3"/>
 
- ![](../../../images/image21.png)
+* 启动成功后，测试Tomcat，打开浏览器，在地址栏中输入127.0.0.1:8080回车，如果看到Tomcat自带的一个JSP页面，说明JDK和Tomcat已搭建成功。如图所示。
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image21.png" align="middle"  height=200px width=450px alt="图片3"/>
+
 ==================================
 <h5 id="2.1.1.4">apache-maven-3.3.1的下载与配置</h5>
 
-（1）打开浏览器，在地址栏中输入下面地址，进入下载页面。
+* 打开浏览器，在地址栏中输入[maven下载地址](http://mirrors.hust.edu.cn/apache//maven/maven-3/3.3.1/binaries/)，进入下载页面。
 
-[下载地址]：http://mirrors.hust.edu.cn/apache//maven/maven-3/3.3.1/binaries/
+* 在新页面中，选取任一链接点击进行下载，如图所示。
 
-（2）在新页面中，选取任一链接点击进行下载，如图所示。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image22.png" align="middle"  height=200px width=450px alt="图片3"/>
 
- ![](../../../images/image22.png)
+* 将下载后的apache-maven-3.3.1-bin.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
 
-（3）将下载后的apache-maven-3.3.1-bin.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
+* 解压成功后，对maven进行环境变量的设置。和JDK、Tomcat设置环境变量一样，这里需设置两个变量，分别是：M2_HOME和Path。设置环境变量步骤和设置jdk环境变量类似
 
-（4）解压成功后，对maven进行环境变量的设置。和JDK、Tomcat设置环境变量一样，这里需设置两个变量，分别是：M2_HOME和Path。如图所示。
+ 		新建M2_HOME：在变量名输入框中输入M2_HOME，在变量值输入框中输入maven的安装目录。
 
- 新建M2_HOME：在变量名输入框中输入M2_HOME，在变量值输入框中输入maven的安装目录。
-
- 打开Path：在变量值输入框中最后输入%M2_HOME%\bin
+		 打开Path：在变量值输入框中最后输入%M2_HOME%\bin
  
- ![](../../../images/image23.png)
- 
- ![](../../../images/image24.png)
- 
-（5）在cmd命令下输入：mvn -v（注意mvn和-v之间有空格），如果出现如下对话框，表明maven配置成功。
+* 在cmd命令下输入：mvn -v（注意mvn和-v之间有空格），如果出现如下对话框，表明maven配置成功。
 
- ![](../../../images/image25.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image25.png" align="middle"  height=200px width=450px alt="图片3"/>
+
 ==================================
 <h5 id="2.1.1.5">mysql5.6的下载与安装</h5>
 
-（1）打开浏览器，进入MySQL官网下载mysql5.6。这里我们使用ZIP Archive版。
-
-[下载地址]：http://dev.mysql.com/downloads/mysql/
+（1）打开浏览器，进入[mysql5.6下载地址](http://dev.mysql.com/downloads/mysql/)。这里我们使用ZIP Archive版。
 
  ![](../../../images/image26.png)
 
