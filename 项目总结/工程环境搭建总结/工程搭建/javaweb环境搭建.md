@@ -39,11 +39,9 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
 
-
-
 * 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows 64-bit”超链接。
 
- ![](../../../images/image03.png)
+ ![](../../../images/image03.png =60x100)
 
 * 在下图所示界面中，单击链接进行下载。
  
