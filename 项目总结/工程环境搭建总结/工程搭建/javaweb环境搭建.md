@@ -66,33 +66,20 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image15.png" align="middle"  height=200px width=450px alt="图片3"/>
 
-（7）JDK开发工具安装成功后，接下来便是对JDK进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，单击“属性”。
+* 如果使用java -version并没有显示java版本信息，那么，我们就需要手动设置jdk的环境变量。具体设置环境变量步骤：（1）在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，单击“属性”。
 
-（8）在弹出的系统属性的对话框中，单击“高级”选项卡，然后单击“环境变量”按钮，如图所示。
+（2）在弹出的系统属性的对话框中，单击“高级”选项卡，然后单击“环境变量”按钮，环境变量对话框中有两栏，上边的一栏是属于当前用户的环节变量，下边的是属于系统级环境变量，单击下边一栏中的“新建”按钮
 
- ![](../../../images/image10.png)
- 
- （9）在弹出的环境变量的对话框中单击“新建”按钮，如图所示。
- 
- ![](../../../images/image11.png)
- 
- （10）单击“新建”按钮，弹出“新建系统变量”对话框，在这里需要设置3个变量，分别为：JAVA_HOME、CLASSPATH和Path。如图所示。
+（3）单击“新建”按钮，弹出“新建系统变量”对话框，在这里需要设置3个变量，变量名分别为：JAVA_HOME、CLASSPATH和Path。
  
  新建JAVA_HOME：在变量名输入框中输入JAVA_HOME，在变量值输入框中输入JDK的安装目录。
  
  新建CLASSPATH：在变量名输入框中输入CLASSPATH，在变量值输入框中输入.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
  
- 打开Path：在变量值输入框中的最后输入%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意原来Path的变量值末尾有没有分号，如果没有先输入分号再输入上面的代码）。
+ Path一般是已经存在了，打开Path：在变量值输入框中的最后输入%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意原来Path的变量值末尾有没有分号，如果没有先输入分号再输入上面的代码）。
 
- ![](../../../images/image12.png)
+（4）保存上述的配置，然后检验JDK环境是否搭建成功，运行cmd输入java -version（java和-version之间有空格），若如上图所示，显示了版本信息，则说明安装和配置成功。
  
- ![](../../../images/image13.png)
- 
- ![](../../../images/image14.png)
- 
- （11）检验JDK环境是否搭建成功，运行cmd输入java -version（java和-version之间有空格），若如图所示，显示版本信息，则说明安装和配置成功。
-
- ![](../../../images/image15.png) 
 ==================================
 <h5 id="2.1.1.3">apache-tomcat-7.0.62的下载与配置</h5>
 
