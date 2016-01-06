@@ -45,7 +45,7 @@
 
 * 在下图所示界面中，单击链接进行下载。
  
- ![](../../../images/image04.png)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image04.png" align="middle"  height=200px width=450px alt="图片2"/>
  
 * 将下载完成的压缩包进行解压缩，完成Eclipse的安装。
 
