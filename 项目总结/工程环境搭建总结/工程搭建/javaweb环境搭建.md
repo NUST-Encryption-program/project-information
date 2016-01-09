@@ -182,7 +182,7 @@ wen工程使用的是java，搭建需要以下步骤
 
 （7）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://git.gitbook.com/raw/haishuiaamybook/myfullstack/master/two.jpg?token=aGFpc2h1aWFhMTo5MGRiMjM5NS1hMmE2LTQ0NDItYTgwMS0wNDM0Y2E4M2Y4ZmI%3D" align="middle"  height=400px width=800px alt="图片3"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://git.gitbook.com/raw/haishuiaamybook/myfullstack/master/two.jpg?token=aGFpc2h1aWFhMTo5MGRiMjM5NS1hMmE2LTQ0NDItYTgwMS0wNDM0Y2E4M2Y4ZmI%3D" align="middle"  alt="图片3"/>
 
 		  
 
