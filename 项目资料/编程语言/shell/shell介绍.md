@@ -59,11 +59,11 @@
 
 ##<h3 id="2.2">2.2.shell函数</h3>
 
-##<h4 id="2.2.1">shell mian函数</h4>
+##<h4 id="2.2.1">2.2.1.shell mian函数</h4>
 
 &emsp;&emsp;
 
-##<h4 id="2.2.2">shell 函数</h4>
+##<h4 id="2.2.2">2.2.2.shell 函数</h4>
 
 #####&emsp;&emsp;2.2.2.1.shell中函数的定义
 （1）第一种定义方式
