@@ -32,7 +32,23 @@
 
 &emsp;&emsp;但是还是要在程序员的思维去介绍和理解shell。我们权且把shell当作一门语言去学习，下面正式学习shell的基础知识。
 
-&emsp;&emsp;任何一门语言都是从基本的语法学起，举个简单的例子：中文博大精深，作为一门语言，也是有自己的基本语法，婴儿在学习语言的时候，最初采用的方法是模仿，之后是学习正规的基础，然后是组织语言。所以，我们学习shell语言也是这个过程，由模仿到基础，再到提升。但是，正如婴儿来到世界上，第一声是哭，计算机语言同样，来到世界上是hello world。下面用shell描述一个简单的hello world程序
+&emsp;&emsp;任何一门语言都是从基本的语法学起，举个简单的例子：中文博大精深，作为一门语言，也是有自己的基本语法，婴儿在学习语言的时候，最初采用的方法是模仿，之后是学习正规的基础，然后是组织语言。所以，我们学习shell语言也是这个过程，由模仿到基础，再到提升。但是，正如婴儿来到世界上，第一声是哭，计算机语言同样，来到世界上是hello world。下面用shell描述一个简单的hello world程序，在下一章中开始描述shell语法
+
+		#!/bin/bash  #第一行必须是解释器
+		echo "Hello World !" #输出hello world到屏幕
+
+&emsp;&emsp;我们会疑问，上边的程序是怎么运行的，在shell的历史介绍中知道，shell分为csh，bash，ksh等，我们用vim编辑，生成文件test后，在*nix机器上，执行sh test.sh,就会输出：Hello world。简单介绍下bash shell的四种运行方式：
+
+		（1）sh test.sh #不需要用户权限
+		（2）切换到shell脚本所在目录下，执行脚本：
+		./test.sh #需要test.sh有可执行权限，./表示是在当前工作目录下执行test.sh.chmod修改文件权限命令
+		（3）以绝对路径执行脚本：/home/test.sh #假设test.sh脚本在home目录下
+		（4）. test.sh或source test.sh
+		注释：前三种方法执行shell脚本时都是在当前shell（称为父shell）开启一个子shell环境，此shell脚本就在这个子shell环境中执行。shell脚本执行完后子shell环境随即关闭，然后又回到父shell中。而方法四则是在当前shell中执行的。
+
+好了，我们开始学习shell的基本语法吧
+
+##<h2 id="2">1.shell基本语法</h2>
 
 
 
