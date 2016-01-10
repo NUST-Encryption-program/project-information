@@ -141,3 +141,9 @@
 
 ==================================
 ##<h3 id="2.2">2.3.shell语句</h3>
+
+&emsp;&emsp;shell语句包括shell流程控制语句包括（1）if条件语句（2）for循环语句（3）while循环语句（4）until循环语句（5）shell选择语句
+
+具体可参考我的另一篇文章[shell语句介绍](https://github.com/my-book/code-book/blob/master/shell%E7%BC%96%E7%A8%8B/chapter-03.md)
+
+
