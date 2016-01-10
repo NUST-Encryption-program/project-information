@@ -61,7 +61,23 @@
 
 ##<h4 id="2.2.1">2.2.1.shell mian函数</h4>
 
-&emsp;&emsp;
+&emsp;&emsp;广义的含义，main函数是一个程序的总入口，但是在shell中main函数的功能弱化，因为shell中程序是顺序执行的，例如在c语言中，面函数一般是如下
+		int　main(int argc,char **argv)//整数类型主函数(整数类型统计参数个数,字符类型*数组指针至字符[])
+		{
+		printf("Hello World!")
+		}
+像上边的程序，编译后，运行就会输出helloworld!，但是在shell中如果只写main函数，如下
+		main()
+		{
+		   echo "hello";
+		}
+最终执行shell是不输出任何东西的，shell的main函数比较普通，就是普通的函数定义，如果要执行main函数，需要如下使用方可
+		main()
+		{
+		   echo "hello";
+		}
+		main
+
 
 ##<h4 id="2.2.2">2.2.2.shell 函数</h4>
 
