@@ -62,21 +62,18 @@
 ##<h4 id="2.2.1">2.2.1.shell mian函数</h4>
 
 &emsp;&emsp;广义的含义，main函数是一个程序的总入口，但是在shell中main函数的功能弱化，因为shell中程序是顺序执行的，例如在c语言中，面函数一般是如下
-
 		int　main(int argc,char **argv)//整数类型主函数(整数类型统计参数个数,字符类型*数组指针至字符[])
 		{
 		printf("Hello World!")
 		}
 		
 像上边的程序，编译后，运行就会输出helloworld!，但是在shell中如果只写main函数，如下
-
 		main()
 		{
 		   echo "hello";
 		}
 		
 最终执行shell是不输出任何东西的，shell的main函数比较普通，就是普通的函数定义，如果要执行main函数，需要如下使用方可
-
 		main()
 		{
 		   echo "hello";
@@ -86,11 +83,13 @@
 ##<h4 id="2.2.2">2.2.2.shell 函数</h4>
 
 #####&emsp;&emsp;2.2.2.1.shell中函数的定义
+
 （1）第一种定义方式
 		function test()
 		{
 		statements;	
 		}
+		
 （2）第二种定义方式
 		test()
 		{
@@ -115,6 +114,7 @@
 #####&emsp;&emsp;2.2.2.4.shell中函数返回值
 
 如果在函数里没有使用return命令指定一个返回值，函数返回的就是执行的最后一条命令的退出码
+
 1 我们可以通过return命令让函数返回数字值;
  
 2 让函数返回字符串值的常用方法是让函数将字符串保存在一个变量中，而该变量应该可以在函数结束之后被使用;
