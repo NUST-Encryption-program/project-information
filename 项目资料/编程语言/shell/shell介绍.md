@@ -41,10 +41,14 @@
 &emsp;&emsp;我们会疑问，上边的程序是怎么运行的，在shell的历史介绍中知道，shell分为csh，bash，ksh等，我们用vim编辑，生成文件test后，在*nix机器上，执行sh test.sh,就会输出：Hello world。简单介绍下bash shell的四种运行方式：
 
 		（1）sh test.sh #不需要用户权限
+		
 		（2）切换到shell脚本所在目录下，执行脚本：
 		./test.sh #需要test.sh有可执行权限，./表示是在当前工作目录下执行test.sh.chmod修改文件权限命令
+		
 		（3）以绝对路径执行脚本：/home/test.sh #假设test.sh脚本在home目录下
+		
 		（4）. test.sh或source test.sh
+		
 		注释：前三种方法执行shell脚本时都是在当前shell（称为父shell）开启一个子shell环境，此shell脚本就在这个子shell环境中执行。shell脚本执行完后子shell环境随即关闭，然后又回到父shell中。而方法四则是在当前shell中执行的。
 
 好了，我们开始学习shell的基本语法吧
@@ -62,18 +66,21 @@
 ##<h4 id="2.2.1">2.2.1.shell mian函数</h4>
 
 &emsp;&emsp;广义的含义，main函数是一个程序的总入口，但是在shell中main函数的功能弱化，因为shell中程序是顺序执行的，例如在c语言中，面函数一般是如下
+
 		int　main(int argc,char **argv)//整数类型主函数(整数类型统计参数个数,字符类型*数组指针至字符[])
 		{
-		printf("Hello World!")
+		  printf("Hello World!");
 		}
 		
 像上边的程序，编译后，运行就会输出helloworld!，但是在shell中如果只写main函数，如下
+
 		main()
 		{
 		   echo "hello";
 		}
 		
 最终执行shell是不输出任何东西的，shell的main函数比较普通，就是普通的函数定义，如果要执行main函数，需要如下使用方可
+
 		main()
 		{
 		   echo "hello";
@@ -85,16 +92,19 @@
 #####&emsp;&emsp;2.2.2.1.shell中函数的定义
 
 （1）第一种定义方式
+
 		function test()
 		{
 		statements;	
 		}
 		
 （2）第二种定义方式
+
 		test()
 		{
 		statements;
 		}
+		
 注意：1.函数括号内是没有参数的，函数参数的传入：test arg1 arg2，函数内使用传入参数，$0表示脚本本身的名字，$1表示第一个参数
 
 2.函数的定义一定要出现在函数的调用语句之前
