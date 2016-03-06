@@ -23,7 +23,7 @@
 
 &emsp;&emsp;简单介绍下技术选型和后期的改进，第一版本前端使用bootstrap+angularJS框架，后端使用spring mvc，数据库使用mysql
 
-为了网站更加轻量级，第二版本后端切换为beego+rest，数据库使用mongodb
+为了网站更加轻量级，第二版本后端切换为django+rest+angularjs，数据库使用mongodb+memcache
 
 ==================================
 ##<h2 id="2">2.项目环境搭建v1</h2>
@@ -37,22 +37,22 @@
 
 * 打开浏览器，在地址栏中输入[Eclipse下载地址](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)，进入Eclipse下载页面。
 
-* 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。此处单击“Windows64-bit”超链接。
+* 在下载页面右侧的Download列表中有Eclipse的各种版本，如图所示。根据操作系统不同，选择适当的版本。如果机器是64位，单击“Windows64-bit”超链接。
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/NUST-Encryption-program/project-information/blob/master/images/image03.png" align="middle"  height=200px width=450px alt="图片1"/>
 
-* 在下图所示界面中，单击链接进行下载。
+* 在下图所示界面中，单击链接进行下载。这里  下载的是MARS.1版本
  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image04.png" align="middle"  height=200px width=450px alt="图片2"/>
  
 * 将下载完成的压缩包进行解压缩，完成Eclipse的安装。
 
 ==================================
-<h5 id="2.1.1.2">jdk1.7.0_71的下载与安装</h5>
+<h5 id="2.1.1.2"> jdk8u73的下载与安装</h5>
 
-* 打开浏览器，在地址栏中输入[JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#sjre-7u71-oth-JPR)，进入jdk下载页面。
+* 打开浏览器，在地址栏中输入[JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)，进入jdk下载页面。
 
-* 根据自己机型的不同，选择相应的版本，由于我机器是64位系统，这里选择“jdk-7u71-windows-x64.exe”。如图所示。
+* 根据自己机型的不同，选择相应的版本，由于我机器是64位系统，这里选择“jdk-8u73-windows-x64.exe”。如图所示。
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image05.png" align="middle"  alt="图片3"/>
 
@@ -70,7 +70,7 @@
 
 	（3）单击“新建”按钮，弹出“新建系统变量”对话框，在这里需要设置3个变量，变量名分别为：JAVA_HOME、CLASSPATH和Path。
  
-		新建JAVA_HOME：在变量名输入框中输入JAVA_HOME，在变量值输入框中输入JDK的安装目录。
+		新建JAVA_HOME：在变量名输入框中输入JAVA_HOME，在变量值输入框中输入JDK的安装目录,这里是C:\Program Files\Java\jdk1.8.0_73。
  		新建CLASSPATH：在变量名输入框中输入CLASSPATH，在变量值输入框中输入.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
  		Path一般是已经存在了，打开Path：在变量值输入框中的最后输入%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意原来Path的变量值末尾有没有分号，如果没有先输入分号再输入上面的代码）。
 
