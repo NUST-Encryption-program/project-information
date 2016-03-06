@@ -172,15 +172,17 @@ wen工程使用的是java，搭建需要以下步骤
 
 （3）工程导入：打开eclipse，然后右边空白处右击->Import->Existing Maven Projects然后导入下载的工程
 
-（4）[配置maven](http://blog.csdn.net/haishuitian1/article/details/45066881)
+（4）[配置jdk](http://blog.csdn.net/haishuitian1/article/details/45066881)
 
-（5）[创建server](http://blog.csdn.net/haishuitian1/article/details/45066881)
+（5）[配置maven](http://blog.csdn.net/haishuitian1/article/details/45066881)
 
-（6）编译代码：执行Run As->Maven install，如果使用maven编译成功的话，表示导入的工程没有问题
+（6）[创建server](http://blog.csdn.net/haishuitian1/article/details/45066881)
 
-（6）编译成功后，会在target目录下生成一个war包，将工程运行在tomcat容器中
+（7）编译代码：执行Run As->Maven install，如果使用maven编译成功的话，表示导入的工程没有问题
 
-（7）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
+（8）编译成功后，会在target目录下生成一个war包，将工程运行在tomcat容器中
+
+（9）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://git.gitbook.com/raw/haishuiaamybook/myfullstack/master/two.jpg?token=aGFpc2h1aWFhMTo5MGRiMjM5NS1hMmE2LTQ0NDItYTgwMS0wNDM0Y2E4M2Y4ZmI%3D" align="middle"  alt="图片3"/>
 
