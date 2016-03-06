@@ -168,7 +168,7 @@ wen工程使用的是java，搭建需要以下步骤
 
 （1）预置开发环境：保证java，tomcat，maven安装完成且运行正常，mysql非必选，涉及数据库开发和测试时可安装
 
-（2）下载工程代码：https://github.com/NUST-Encryption-program/app.git([需要掌握git工具的使用](https://github.com/NUST-Encryption-program/project-information/blob/master/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC%E4%B9%A6.md))
+（2）下载工程代码：https://github.com/NUST-Encryption-program/app.git</br> [需要掌握git工具的使用](https://github.com/NUST-Encryption-program/project-information/blob/master/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC%E4%B9%A6.md)
 
 （3）工程导入：打开eclipse，然后右边空白处右击->Import->Existing Maven Projects然后导入下载的工程
 
