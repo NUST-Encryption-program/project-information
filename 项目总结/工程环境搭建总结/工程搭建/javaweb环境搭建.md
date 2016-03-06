@@ -77,25 +77,21 @@
 	（4）保存上述的配置，然后检验JDK环境是否搭建成功，运行cmd输入java -version（java和-version之间有空格），若如上图所示，显示了版本信息，则说明安装和配置成功。
  
 ==================================
-<h5 id="2.1.1.3">apache-tomcat-7.0.62的下载与配置</h5>
+<h5 id="2.1.1.3">apache-tomcat的下载与配置</h5>
 
-* 打开浏览器，在地址栏中输入[tomcat下载地址](http://tomcat.apache.org/download-70.cgi)，进入Tomcat7.0下载页面。
+* 打开浏览器，在地址栏中输入[tomcat下载地址](http://tomcat.apache.org/download-70.cgi)，进入最新Tomcat下载页面。
 
-* 在下载页面下方，在Core节点下包含了Tomcat7服务器安装文件的不同平台下的不同版本，如图所示，此处单击“64-bit Windows zip（pgp,md5,sha1）”超链接，打开文件下载对话框，在该对话框中单击“保存”按钮，即可将Tomcat的安装文件下载到本地计算机中。
+* 在下载页面下方，在Core节点下包含了Tomcat服务器安装文件的不同平台下的不同版本，如图所示，此处单击“64-bit Windows zip（pgp,md5,sha1）”超链接，打开文件下载对话框，在该对话框中单击“保存”按钮，即可将Tomcat的安装文件下载到本地计算机中。
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../../../images/image16.png" align="middle"  height=200px width=450px alt="图片3"/>
 
-* 将下载后的apache-tomcat-7.0.62.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
+* 将下载后的apache-tomcat-*.zip双击进行解压，解压后的文件就可以直接使用，不需要进行安装。
  
 * Tomcat下载成功后，接下来便是对Tomcat进行环境变量的设置。在桌面上选中“我的电脑”，单击鼠标右键，在弹出来的菜单中，点击“属性”。
 
-* 同jdk环境变量操作类似，只是在这里需要设置的3个变量，分别是：CATALINA_HOME、CATALINA_BASE和Path。
+* 同jdk环境变量操作类似，只是在这里需要设置的1个变量CATALINA_HOME。
 
  		新建CATALINA_HOME:在变量名输入框中输入CATALINA_HOME，在变量值输入框中输入Tomcat的安装目录。
-
- 		新建CATALINA_BASE:在变量名输入框中输入CATALINA_BASE，在变量值输入框中输入Tomcat的安装目录。
-
- 		打开Path：在变量值输入框中最后输入%CATALINA_HOME%\lib;%CATALINA_HOME%\bin
  
 * 在cmd命令下输入：startup，如果出现如下对话框，表明服务启动成功。
 
@@ -156,6 +152,8 @@
 
 &emsp;&emsp;[代码下载地址](https://github.com/NUST-Encryption-program/app)
 
+&emsp;&emsp;[代码框架介绍](https://github.com/NUST-Encryption-program/app)
+
 ###<h3 id="2.1">2.2.环境搭建</h3>
 ==================================
 
@@ -168,17 +166,19 @@
 
 wen工程使用的是java，搭建需要以下步骤
 
-（1）预备工作是：上节中提到的软件都下载且安装ok
+（1）预置开发环境：保证java，tomcat，maven安装完成且运行正常，mysql非必选，涉及数据库开发和测试时可安装
 
-（2）下载工程代码：https://github.com/NUST-Encryption-program/app.git
+（2）下载工程代码：https://github.com/NUST-Encryption-program/app.git([需要掌握git工具的使用](https://github.com/NUST-Encryption-program/project-information/blob/master/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC%E4%B9%A6.md))
 
-（3）打开eclipse，然后右边空白处右击->Import->Existing Maven Projects然后导入下载的工程
+（3）工程导入：打开eclipse，然后右边空白处右击->Import->Existing Maven Projects然后导入下载的工程
 
-（4）导入工程后，就可以执行Run As->Maven install，如果使用maven编译成功的话，表示导入的工程没有问题
+（4）[配置maven](http://blog.csdn.net/haishuitian1/article/details/45066881)
 
-（5）创建server，导入tomcat服务器。New->Server->Tomcat7.0
+（5）[创建server](http://blog.csdn.net/haishuitian1/article/details/45066881)
 
-（6）然后将war工程运行在tomcat容器中
+（6）编译代码：执行Run As->Maven install，如果使用maven编译成功的话，表示导入的工程没有问题
+
+（6）编译成功后，会在target目录下生成一个war包，将工程运行在tomcat容器中
 
 （7）最后在浏览器中输入127.0.0.1:8080/app，会出现如下页面
 
