@@ -152,8 +152,6 @@
 
 &emsp;&emsp;[代码下载地址](https://github.com/NUST-Encryption-program/app)
 
-&emsp;&emsp;[代码框架介绍](https://github.com/NUST-Encryption-program/app)
-
 ###<h3 id="2.1">2.2.环境搭建</h3>
 ==================================
 
